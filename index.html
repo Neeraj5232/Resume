@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: lightgrey;
+            
+           
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px;
+            width: 80%;
+            
+
+        }
+        .box1{
+            grid-row: span 2;
+            background-color: white;
+            padding: 3px 8px;
+            
+        }
+        .b1 img{
+            width: 100%;
+
+
+        }
+        .b2 {
+           
+
+        }
+        .backbox{
+            width: 90%;
+            background-color: lightgrey;
+            height: 15px;
+            border-radius: 20px;
+            
+        }
+        .status1{
+            height: 100%;
+            width: 90%;
+            background-color: #009688;
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            font-size: 15px;
+
+        }
+        .status2{
+            height: 100%;
+            width: 80%;
+            background-color: #009688;
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            font-size: 15px;
+
+
+        }
+        .status3{
+            height: 100%;
+            width: 70%;
+            background-color: #009688;
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            font-size: 15px;
+
+        }
+        .status4{
+            height: 100%;
+            width: 50%;
+            background-color: #009688;
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            font-size: 15px;
+        }
+        .lang1{
+            height: 15px;
+            width: 90%;
+            background-color: #009688;
+            border-radius: 20px;
+        }
+        .lang2{
+            height: 15px;
+            width: 90%;
+            background-color: lightgray;
+            border-radius: 20px;
+        }
+        .inner{
+            height: 100%;
+            width: 50%;
+            background-color: #009688;
+            border-radius: 20px;
+        }
+        .inner2{
+            height: 100%;
+            width: 25%;
+            background-color: #009688;
+            border-radius: 20px;
+        }
+        .box2{
+            background-color: white;
+            padding: 3px 8px;
+           
+
+        }
+        .box3{
+            background-color: white;
+            padding: 3px 8px;
+
+        }
+        .green{
+            color: #009688;
+            margin-left: 20px;
+        }
+        .footer{
+            height: 150px;
+            background-color: #009688;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin-top: 20px;
+        }
+        hr{
+            width: 90%;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        
+        <div class="container">
+            <div class="box1">
+                <div class="b1"><img src="https://www.w3schools.com/w3images/avatar_hat.jpg" alt="">Jane Doe</div>
+                <div class="b2"><ul>
+                    <li>Designer</li>
+                    <li>London, UK</li>
+                    <li>ex@mail.com</li>
+                    <li> 1224435534</li>
+                  
+                </ul>
+            </div>
+                <hr>
+                <div class="b3">
+                    <p style="font-weight: bolder; font-size: 18px;">Skills</p>
+                    <p>Adobe Photoshop</p>
+                    <div class="backbox">
+                        <div class="status1">90%</div>
+                    </div>
+                    <p>Photography</p>
+                    <div class="backbox">
+                        <div class="status2">80%</div>
+                    </div>
+                    <p>Illustrator</p>
+                    <div class="backbox">
+                        <div class="status3">75%</div>
+                    </div>
+                    <p>Media</p>
+                    <div class="backbox">
+                        <div class="status4">50%</div>
+                    </div>
+                </div>
+                <div class="b4">
+                    <p style="font-size: 18px; font-weight: bolder;">Languages</p>
+                    <p>English</p>
+                    <div class="lang1"></div>
+                    <p>Spanish</p>
+                    <div class="lang2">
+                        <div class="inner"></div>
+                    </div>
+                    <p>German</p>
+                    <div class="lang2">
+                        <div class="inner2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <div>
+                    <h1 style="font-size: 30px; color: rgb(112, 112, 112);">Work Experience</h1>
+                    <h3>Front End Developer / w3schools.com</h3>
+                    <p class="green">January 2015 </p>
+                    <p>The customer is very happy. They are here to be blamed for the great persecution of the present or for desertion. There are no times freed from hate and hatred, from which pain and suffering must be repelled by the right, this one.</p>
+    
+                </div>
+                <hr>
+                <div>
+                    <h3>Web Developer / something.com</h3>
+                    <p class="green">March 2012-Dec 2014</p>
+                    <p>Adipisicion will be carried out. They are here to be blamed for the great persecution of the present or for desertion. There are no times freed from hate and hatred, from which pain and suffering must be repelled by the right, this one.</p>
+                    <hr>
+                    <h3>Graphic Designer / designsomething.com</h3>
+                    <p class="green">June 2010-March 2012</p>
+                    <p>It is very important for the customer to pay attention to the adipiscing process.</p>
+                </div>
+            </div>
+            <div class="box3">
+                <h1 style="font-size: 30px; color: rgb(112, 112, 112);">Education</h1>
+                <h3>W3Schools.com</h3>
+                <p class="green">Forever</p>
+                <p>
+                    Web Development! All I need to know in one place
+                </p>
+                <hr>
+                <h3>London Business School</h3>
+                <p class="green">2013 - 2015</p>
+                <p>Master Degree</p>
+                <hr>
+                <h3>School of Coding</h3>
+                <p class="green">2010 - 2013</p>
+                <p>Bachelor Degree
+    
+                </p>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div>
+            <p>Find me on social media.</p>
+
+        </div>
+        <div>
+                 
+        </div>
+        <div>Powered by w3.css</div>
+    </div>
+    
+</body>
+</html>
